@@ -5,7 +5,7 @@ sca;
 
 % Here we call some default settings for setting up Psychtoolbox
 PsychDefaultSetup(2);
-
+ 
 % Get the screen numbers
 screens = Screen('Screens');
 
@@ -210,7 +210,7 @@ amplitude = 0.5;
 frequency = [8 8.2 8.4 8.6 8.8 9 9.2 9.4 9.6 9.8;10 10.2 10.4 10.6 10.8 11 11.2 11.4 11.6 11.8;12 12.2 12.4 12.6 12.8 13 13.2 13.4 13.6 13.8;14 14.2 14.4 14.6 14.8 15 15.2 15.4 15.6 15.8];
 angFreq = zeros(1, 40);
 startPhase = [0.0 0.35 0.70 1.05 1.40 1.75 0.10 0.45 0.80 1.15;1.50 1.85 0.20 0.55 0.90 1.25 1.60 1.95 0.30 0.65;1 1.35 1.70 0.05 0.40 0.75 1.10 1.45 1.80 0.15;0.50 0.85 1.20 1.55 1.90 0.25 0.60 0.95 1.30 1.65];
-  
+   
 thisContrast=zeros(4,10);
 for i=1:4
     for j=1:10
